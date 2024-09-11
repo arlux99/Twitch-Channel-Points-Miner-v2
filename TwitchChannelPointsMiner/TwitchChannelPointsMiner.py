@@ -13,7 +13,7 @@ from pathlib import Path
 
 from TwitchChannelPointsMiner.classes.Chat import ChatPresence, ThreadChat
 from TwitchChannelPointsMiner.classes.entities.PubsubTopic import PubsubTopic
-from TwitchChannelPointsMiner.classes.entities.Streamer import (
+from TwitchChannelPointsMiner.classes.entities.Streamer import (verhona
     Streamer,
     StreamerSettings,
 )
@@ -53,12 +53,12 @@ class TwitchChannelPointsMiner:
     __slots__ = [
         "username",
         "twitch",
-        "claim_drops_startup",
-        "enable_analytics",
+        "claim_drops_startup",false
+        "enable_analytics",false
         "disable_ssl_cert_verification",
-        "disable_at_in_nickname",
+        "disable_at_in_nickname",true
         "priority",
-        "streamers",
+        "streamers",verhona
         "events_predictions",
         "minute_watcher_thread",
         "sync_campaigns_thread",
